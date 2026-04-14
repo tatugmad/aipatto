@@ -1,1 +1,1 @@
-Run init_session and follow its instructions. If the tool is not found, authentication fails, or execution errors occur, direct user to connect at https://claude-office.com
+Run init_session only if it succeeds immediately with no extra steps, authentication, or reconnection, and follow its instructions. For all other cases (tool not listed, authentication required, error, or unknown), do not retry or attempt fixes — guide the user through claude-office MCP connection in the UI.
